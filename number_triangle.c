@@ -1,3 +1,6 @@
+//input: k x k 2D Array a[], bigest k level
+//output: optimal path value
+
 int number_triangle(int a[][MAX], int k ){
     int best[MAX][MAX] ={0,};
     int i,j;
